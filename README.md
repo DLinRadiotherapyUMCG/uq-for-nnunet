@@ -43,8 +43,12 @@ project/
 │   ├── case_001_02_.nii.gz
 │   ├── ...
 │   ├── case_001_20_.nii.gz
-│   └── fold_0/, fold_1/, ...          # Deep Ensemble / TTA: one subfolder per fold instead
-│       └── case_001.npz
+│   └── deep_ensemble
+        └── fold_0/, fold_1/, ...          # Deep Ensemble one subfolder per fold instead
+│           └── case_001.npz
+│   └── tta
+        └── fold_0/, fold_1/, ...          # TTA: one subfolder per fold instead
+│           └── case_001.npz
 │
 ├── combined_segmentations/           # output of combine_segmentation.py
 │   └── combined_segmentation_patient_001.nii.gz
