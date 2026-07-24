@@ -2,6 +2,8 @@
 
 Uncertainty quantification (UQ) for a nnU-Net segmentation model. Supports MC Dropout, Deep Ensemble, and TTA-based uncertainty estimation, with tools to combine samples into a final segmentation, compute voxel-wise uncertainty maps, and evaluate uncertainty maps/calibration.
 
+This is an first release of the research code. For any questions or comments please contact :) (j.e.van.aalst[at]umcg.nl/joelle.vanaalst[at]live.nl)
+
 ## Pipeline overview
 
 ```
@@ -184,8 +186,6 @@ evaluate_uncertainty \
 Add info on how to compute MC-dropout, Deep ensemble and Test-time augmentation samples for predictions in nnU-Net
 
 ## Known limitations
-
-This is an first release of the research code. For any questions or comments please contact :) (j.e.van.aalst[at]umcg.nl/joelle.vanaalst[at]live.nl)
 - **Folder structure samples** the folder structure for the mc_dropout samples are directly in the predictions folder and for Test-time augmentation and Deep ensemble must have subfolders. TO DO: fix
 - **Filename mismatch between steps 2 and 3.** `evaluate_calibration.py`/`evaluate_uncertainty.py` currently look for files by formatting, this needs to be fixed to a more robust method.
 - **Pass `--roi_dict` for now** when running `compute_uncertainty_map.py`, it needs to be present and cannot be left blank for now
