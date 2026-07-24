@@ -31,7 +31,7 @@ This installs four command-line tools: `combine_segmentation`, `compute_uncertai
 
 ## 0. Generating the prediction samples
 
-This repository does **not** generate the raw prediction samples itself. It expects them to already exist in the paths. To create the MC Dropout samples, Deep ensemble samples or Test-time augmentation samples per patient, please refer to [**TO DO MAKE FILE**]. 
+This repository does **not** generate the raw prediction samples itself. It expects them to already exist in the paths.
 
 
 ## Expected folder structure
