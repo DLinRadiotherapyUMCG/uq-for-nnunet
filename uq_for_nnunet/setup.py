@@ -8,7 +8,9 @@ setup(
         "numpy",
         "nibabel",
         "tqdm",
-        # Add any other dependencies
+        "pandas",
+        "openpyxl",
+        "scikit-learn"
     ],
     entry_points={
         "console_scripts": [
