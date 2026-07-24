@@ -15,8 +15,8 @@ Uncertainty quantification (UQ) for a nnU-Net segmentation model. Supports MC Dr
  compute_uncertainty_map.py  -->  obtains voxel-wise uncertainty maps (entropy, MI, variance, ...)
               │
               V
-   evaluate_calibration.py   -->  evaluates uncertainty value calibration: ECE / accuracy vs uncertainty
-   evaluate_uncertainty.py   -->  summarises uncertainty statistics per patient
+ evaluate_calibration.py   -->  evaluates uncertainty value calibration: ECE / accuracy vs uncertainty
+ evaluate_uncertainty.py   -->  summarises uncertainty statistics per patient
 ```
 
 ## Installation
