@@ -180,6 +180,9 @@ evaluate_uncertainty \
     #--patients $PATIENTS
 ```
 
+## TO DO
+Add info on how to compute MC-dropout, Deep ensemble and Test-time augmentation samples for predictions in nnU-Net
+
 ## Known limitations
 
 This is an first release of the research code. For any questions or comments please contact :) (j.e.van.aalst[at]umcg.nl/joelle.vanaalst[at]live.nl)
