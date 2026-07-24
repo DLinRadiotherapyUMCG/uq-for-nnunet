@@ -2,7 +2,7 @@
 
 Uncertainty quantification (UQ) for a nnU-Net segmentation model. Supports MC Dropout, Deep Ensemble, and TTA-based uncertainty estimation, with tools to combine samples into a final segmentation, compute voxel-wise uncertainty maps, and evaluate uncertainty maps/calibration.
 
-This is an first release of the research code. For any questions or comments please contact :)
+This is the first release of the research code. For any questions or comments please contact :)
 
 Email:
 [j.e.van.aalst@umcg.nl](mailto:j.e.van.aalst@umcg.nl) | [joelle.vanaalst@live.nl](mailto:joelle.vanaalst@live.nl)
